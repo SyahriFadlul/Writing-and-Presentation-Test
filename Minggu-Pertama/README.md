@@ -48,8 +48,11 @@
         - Sign up/Sign in GitHub
         - Di _Home Page_ klik _new_ seperti gambar berikut :    
         ![new_repository](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/d6f88e6e6092d29a8892a6f2dac06e11bcbef36d/Minggu-Pertama/new%20repo.png "new_repo")
-        - Buat Repository-nya, lalu copy link repository-nya seperti gambar beriktu :
+        - Buat Repository-nya, lalu copy link repository-nya seperti gambar berikut :
         ![copy_link](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/copy_link.png)
+    3. Memasang git dan publish project
+        - `git init` di dalam terminal dengan profile Git Bash(visual studio code) seperti berikut:
+        ![git_init]() 
 
 ##  **Day 2 : HTML**
 
