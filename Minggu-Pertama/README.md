@@ -47,7 +47,7 @@
     2. Membuat repository di GitHub
         - Sign up/Sign in GitHub
         - Di _Home Page_ klik _new_ seperti gambar berikut :    
-        ![new repository](./new_repo.png "new repo")
+        ![new repository](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/new%20repo.png "new repo")
 
 ##  **Day 2 : HTML**
 
