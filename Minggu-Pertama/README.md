@@ -20,7 +20,7 @@
 *   `cat` , perintah untuk melihat isi sebuah file.
 *   `cp` , perintah untuk menyalin file. Jika ingin menyalin direktori gunakan `cp -r`.
 *   `mv` , perintah untuk memindahkan file. Jika ingin memindahkan direktori gunakan `mv -r`.
-*   `mv` juga bisa digunakan untuk menamai ulang file dan direktori(untuk direktori `mv -r`).
+*   `mv` , juga bisa digunakan untuk menamai ulang file dan direktori(untuk direktori `mv -r`).
 >Ketika kita rename sebuah file atau direktori menggunakan `mv` dengan nama yang sudah digunakan di dalam satu direktori,maka file atau direktori lama tersebut akan hilang dan digantikan dengan yang baru.
 *   `rm`  , perintah untuk menghapus sebuah file. Jika ingin menghapus direktori gunakan `rm -r`.
 >Tambahkan `-rf` ketika ingin menghapus file secara permanen(tidak masuk ke recyle bin). Dan juga ketika menghapus direktori yang ada isnya gunakan `-rf`. (contoh: `rm -rf text.txt`)
