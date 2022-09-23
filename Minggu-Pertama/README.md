@@ -1,4 +1,4 @@
-# **Writing and Presentation Minggu ke-1**
+# **Writing and Presentation Test Minggu ke-1**
 
 ## **Day 1 : Unix Command Line**
 *   Shell merupakan perantara antara user dengan komputer(ke OS lalu hardware) untuk berkomunikasi berbasis teks.
