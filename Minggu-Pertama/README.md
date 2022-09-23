@@ -25,9 +25,9 @@
 *   `cp` , perintah untuk menyalin file. Jika ingin menyalin direktori gunakan `cp -r`.
 *   `mv` , perintah untuk memindahkan file. Jika ingin memindahkan direktori gunakan `mv -r`.
 *   `mv` , juga bisa digunakan untuk menamai ulang file dan direktori(untuk direktori `mv -r`).
-><div align="justify">Ketika kita rename sebuah file atau direktori menggunakan `mv` dengan nama yang sudah digunakan di dalam satu direktori,maka file atau direktori lama tersebut akan hilang dan digantikan dengan yang baru.
+>Ketika kita rename sebuah file atau direktori menggunakan `mv` dengan nama yang sudah digunakan di dalam satu direktori,maka file atau direktori lama tersebut akan hilang dan digantikan dengan yang baru.
 *   `rm`  , perintah untuk menghapus sebuah file. Jika ingin menghapus direktori gunakan `rm -r`.
-><div align="justify">Tambahkan `-rf` ketika ingin menghapus file secara permanen(tidak masuk ke recyle bin). Dan juga ketika menghapus direktori yang ada isinya gunakan `-rf`. (contoh: `rm -rf text.txt`)   
+>Tambahkan `-rf` ketika ingin menghapus file secara permanen(tidak masuk ke recyle bin). Dan juga ketika menghapus direktori yang ada isinya gunakan `-rf`. (contoh: `rm -rf text.txt`)   
 
 &emsp;
 
@@ -37,7 +37,7 @@
     *  Git adalah _version control_ terdistribusi diciptakan oleh Linus Torvalds pada tahun 2005. Diciptakan untuk melacak perubahan-perubahan yang terjadi di dalam file proyek yang dikerjakan oleh banyak orang maupun sendiri.
     *  GitHub adalah layanan _hosting_ Git repository berbasis web dan orang-lain bisa mengakses dan mengubahnya. Dan itu semua terlacak.        
 
-   <div align="justify">Perbedaannya adalah **Git** merupakan _software_ dengan tampilan _command line tool_ yang terpasang di sistem lokal yang berfungsi untuk melakukan kontrol versi _source code_ sehingga segala perubahan tercatat. Sedangkan **GitHub** merupakan layanan hosting Git repository berbasis web dengan tampilan GUI (_Graphical User Interface_) yang berfungsi untuk sentralisasi _source code_.
+   Perbedaannya adalah **Git** merupakan _software_ dengan tampilan _command line tool_ yang terpasang di sistem lokal yang berfungsi untuk melakukan kontrol versi _source code_ sehingga segala perubahan tercatat. Sedangkan **GitHub** merupakan layanan hosting Git repository berbasis web dengan tampilan GUI ( _Graphical User Interface_ ) yang berfungsi untuk sentralisasi _source code_ .
 
 - ### **Cara Penggunaan Git dan GitHub**
     1. Konfigurasi awal Git
@@ -52,7 +52,16 @@
         ![copy_link](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/copy_link.png)
     3. Memasang git dan publish project
         - `git init` di dalam terminal dengan profile Git Bash(visual studio code) seperti berikut:
-        ![git_init]() 
+        ![git_init](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/git_init.png)
+        - `git add .` untuk menambahkan file baru pada repository yang sudah dipilih.
+        - `git commit -m "msg"` untuk menyimpan perubahan di lokal.
+        - `git branch -M main` untuk buat branch dengan nama main.
+        - `git remote add origin <url>`untuk mengatur dimana kita akan publish,bagian <url> isi dengan repository yang telah dicopy-kan.
+        - `git push -u origin main` publish proyek yang sudah terpasang git ke GitHub.
+    4. Cloning GitHub ke local machine
+        - `git clone <url>` url diisi dengan proyek link di GitHUb yang ingin di clone ke komputer kita.   
+
+---
 
 ##  **Day 2 : HTML**
 
