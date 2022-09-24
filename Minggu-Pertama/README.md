@@ -73,10 +73,10 @@
 
 -   **Tools pendukung HTML**     
 Ketika kita ingin membuat sebuah HTML ada beberapa alat yang harus dimiliki yaitu :
-1.  **Browser**, dengan browser kita bisa melihat hasil codingan HTML yang sudah dibuat. Contoh browsernya yaitu, Chrome, Firefox, Opera dan lain-lain.
-2.  **Code Editor**, dengan code editor kita bisa membuat konten-konten HTML. Contoh code editor yang paling populer yaitu, Visual Studio Code.     
+    1.  **Browser**, dengan browser kita bisa melihat hasil codingan HTML yang sudah dibuat. Contoh browsernya yaitu, Chrome, Firefox, Opera dan lain-lain.
+    2.  **Code Editor**, dengan code editor kita bisa membuat konten-konten HTML. Contoh code editor yang paling populer yaitu, Visual Studio Code.     
 -   **Membuat HTML**   
-![html_structure]()    
+![html_structure](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/struktur_html.png)    
 
 
 
