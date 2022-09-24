@@ -1,30 +1,31 @@
 
 # **Writing and Presentation Test Minggu ke-1**
 
-## **Day 1 :**
+## **Hari Ke-1 :**
 
 ## **I. Unix Command Line**
 
-*   Shell merupakan perantara antara user dengan komputer(ke OS lalu hardware) untuk berkomunikasi berbasis teks.
-*   Command Line Interface(CLI) merupakan shell yang menerima perintah berbasis teks,yang nantinya akan dijalankan oleh OS.
-*   Contoh CLI sendiri yaitu, command prompt, dan bash untuk windows, dan ada juga zsh untuk os mirip UNIX.
-*   <div align="justify">Ketika kita mengakses folder atau file melalui sebuah terminal,yang pertama kita lalui adalah root directory masuk ke folder lalu mungkin ada sub-folder lagi dan yang terakhir ada file. Ini disebut bisa disebut tree filesystem structure.
-*   Sebuah OS mengatur direktori dan file-nya dengan filesystem berbentuk pohon.
-*   Dengan CLI atau shell kita bisa mengakses/manipulasi filesystem tersebut.
-###   **A. Navigasi file dan direktori**
-*   `pwd` merupakan perintah untuk mengetahui lokasi kita saat ini.
-*   `ls` merupakan perintah untuk mengetahui isi dari direktori itu sendiri.
-*   `cd` merupakan perintah untuk berpindah-pindah direktori.
+- ### **Definisi CLI, Shell dan Filesystem**
+    *   Shell merupakan perantara antara user dengan komputer(ke OS lalu hardware) untuk berkomunikasi berbasis teks.
+    *   Command Line Interface(CLI) merupakan shell yang menerima perintah berbasis teks,yang nantinya akan dijalankan oleh OS.
+    *   Contoh CLI sendiri yaitu, command prompt, dan bash untuk windows, dan ada juga zsh untuk os mirip UNIX.
+    *   <div align="justify">Ketika kita mengakses folder atau file melalui sebuah terminal,yang pertama kita lalui adalah root directory masuk ke folder lalu mungkin ada sub-folder lagi dan yang terakhir ada file. Ini disebut bisa disebut tree filesystem structure.
+    *   Sebuah OS mengatur direktori dan file-nya dengan filesystem berbentuk pohon.
+    *   Dengan CLI atau shell kita bisa mengakses/manipulasi filesystem tersebut.
+- ### **Navigasi file dan direktori**
+    *   `pwd` merupakan perintah untuk mengetahui lokasi kita saat ini.
+    *   `ls` merupakan perintah untuk mengetahui isi dari direktori itu sendiri.
+    *   `cd` merupakan perintah untuk berpindah-pindah direktori.
 
-### **B. Manipulasi file dan direktori**
-*   `touch` , perintah untuk membuat suatu file.
-*   `mkdir` , perintah untuk membuat suatu direktori/file.
-*   `head` , perintah untuk melihat beberapa baris awal dari sebuah teks.
-*   `tail` , perintah untuk melihat beberapa baris akhir dari sebuah teks.
-*   `cat` , perintah untuk melihat isi sebuah file.
-*   `cp` , perintah untuk menyalin file. Jika ingin menyalin direktori gunakan `cp -r`.
-*   `mv` , perintah untuk memindahkan file. Jika ingin memindahkan direktori gunakan `mv -r`.
-*   `mv` , juga bisa digunakan untuk menamai ulang file dan direktori(untuk direktori `mv -r`).
+- ### **Manipulasi file dan direktori**
+    *   `touch` , perintah untuk membuat suatu file.
+    *   `mkdir` , perintah untuk membuat suatu direktori/file.
+    *   `head` , perintah untuk melihat beberapa baris awal dari sebuah teks.
+    *   `tail` , perintah untuk melihat beberapa baris akhir dari sebuah teks.
+    *   `cat` , perintah untuk melihat isi sebuah file.
+    *   `cp` , perintah untuk menyalin file. Jika ingin menyalin direktori gunakan `cp -r`.
+    *   `mv` , perintah untuk memindahkan file. Jika ingin memindahkan direktori gunakan `mv -r`.
+    *   `mv` , juga bisa digunakan untuk menamai ulang file dan direktori(untuk direktori `mv -r`).
 >Ketika kita rename sebuah file atau direktori menggunakan `mv` dengan nama yang sudah digunakan di dalam satu direktori,maka file atau direktori lama tersebut akan hilang dan digantikan dengan yang baru.
 *   `rm`  , perintah untuk menghapus sebuah file. Jika ingin menghapus direktori gunakan `rm -r`.
 >Tambahkan `-rf` ketika ingin menghapus file secara permanen(tidak masuk ke recyle bin). Dan juga ketika menghapus direktori yang ada isinya gunakan `-rf`. (contoh: `rm -rf text.txt`)   
@@ -56,17 +57,39 @@
         - `git add .` untuk menambahkan file baru pada repository yang sudah dipilih.
         - `git commit -m "msg"` untuk menyimpan perubahan di lokal.
         - `git branch -M main` untuk buat branch dengan nama main.
-        - `git remote add origin <url>`untuk mengatur dimana kita akan publish,bagian <url> isi dengan repository yang telah dicopy-kan.
+        - `git remote add origin <url>`untuk mengatur dimana kita akan _publish_,bagian <url> isi dengan repository yang telah dicopy-kan.
         - `git push -u origin main` publish proyek yang sudah terpasang git ke GitHub.
     4. Cloning GitHub ke local machine
         - `git clone <url>` url diisi dengan proyek link di GitHUb yang ingin di clone ke komputer kita.   
 
 ---
 
-##  **Day 2 : HTML**
+##  **Hari Ke-2 : HTML**   
 
-##  **Day 3 : CSS**
+-   **Apa Itu HTML?**
+    - HTML merupakan singkatan dari _Hypertext Markup Language_.
+    - HTML bersifat statis, hanya bisa menampilkan konten saja dan tidak bisa mengelola data seperti bahasa pemrograman yang dinamis(C, C++, java, python dll).
+    - HTML dalam _web development_ adalah sebagai kerangka web.     
 
-##  **Day 4 : Algoritma**
+-   **Tools pendukung HTML**     
+Ketika kita ingin membuat sebuah HTML ada beberapa alat yang harus dimiliki yaitu :
+1.  **Browser**, dengan browser kita bisa melihat hasil codingan HTML yang sudah dibuat. Contoh browsernya yaitu, Chrome, Firefox, Opera dan lain-lain.
+2.  **Code Editor**, dengan code editor kita bisa membuat konten-konten HTML. Contoh code editor yang paling populer yaitu, Visual Studio Code.     
+-   **Membuat HTML**   
+![html_structure]()    
 
-##  **Day 5 : Javascript Dasar**dasd
+
+
+---
+
+##  **Hari Ke-3 : CSS**
+
+
+---
+
+##  **Hari Ke-4 : Algoritma**
+
+
+---
+
+##  **Hari Ke-5 : Javascript Dasar**
