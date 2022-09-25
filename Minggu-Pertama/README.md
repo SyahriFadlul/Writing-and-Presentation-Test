@@ -48,12 +48,12 @@
     2. Membuat repository di GitHub
         - Sign up/Sign in GitHub
         - Di _Home Page_ klik _new_ seperti gambar berikut :    
-        ![new_repository](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/d6f88e6e6092d29a8892a6f2dac06e11bcbef36d/Minggu-Pertama/new%20repo.png "new_repo")
+        ![new_repository](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/images/new%20repo.png "new_repo")
         - Buat Repository-nya, lalu copy link repository-nya seperti gambar berikut :
-        ![copy_link](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/copy_link.png)
+        ![copy_link](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/images/copy_link.png)
     3. Memasang git dan publish project
         - `git init` di dalam terminal dengan profile Git Bash(visual studio code) seperti berikut:
-        ![git_init](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/git_init.png)
+        ![git_init](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/images/git_init.png)
         - `git add .` untuk menambahkan file baru pada repository yang sudah dipilih.
         - `git commit -m "msg"` untuk menyimpan perubahan di lokal.
         - `git branch -M main` untuk buat branch dengan nama main.
@@ -99,18 +99,18 @@ Ketika kita ingin membuat sebuah HTML ada beberapa alat yang harus dimiliki yait
 -   Di awali opening tag `<p>` lalu konten berupa teks(bisa juga berupa gambar,video dan audio)`Hello World` dan diakhiri closing tag `</p>`.
 -   **Menjalankan Code HTML**
     1.   Menjalankan code dengan klik kanan file html lalu _open with_ browser.
-    ![open_with_broswer]()
+    ![open_with_broswer](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/images/open_with_browser.png)
     2.   Menjalankan code dengan _copy path_.
-    ![copy_path][]
+    ![copy_path](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/images/copy_path.png)
     Lalu paste path-nya.
-    ![link_in_browser]()
+    ![link_in_browser](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/images/link_in_browser.png)
     3.   Menjalankan code di terminal dengan perintah `start index.html`.
-    ![terminal]()
+    ![terminal](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/images/terminal.png)
     4.   Menjalankan code dengan extension '_Code Runner_'.
     >   Ada berbagai macam cara untuk menjalankan code dengan _Code Runner_, salah satunya klik kanan pada halaman code.
-    ![code_runner]()
+    ![code_runner](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/images/code_runner.png)
     5.  Menjalankan code dengan extension '_Live Server_'.
-    ![live_server]()
+    ![live_server](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/images/live_server.png)
 
 -   **Tag HTML yang sering digunakan**
     -   `<p>` merupakan paragraf.
