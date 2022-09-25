@@ -76,7 +76,91 @@ Ketika kita ingin membuat sebuah HTML ada beberapa alat yang harus dimiliki yait
     1.  **Browser**, dengan browser kita bisa melihat hasil codingan HTML yang sudah dibuat. Contoh browsernya yaitu, Chrome, Firefox, Opera dan lain-lain.
     2.  **Code Editor**, dengan code editor kita bisa membuat konten-konten HTML. Contoh code editor yang paling populer yaitu, Visual Studio Code.     
 -   **Membuat HTML**   
-![html_structure](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/struktur_html.png)    
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HELLO WORLD</h1>
+    
+</body>
+</html>
+```    
+-   Code di atas merupakan struktur HTML.
+-   HTML tersusun sebagai kesatuan dari sebuah tingkatan (family tree relationship).
+-   Saat sebuah element berada di dalam element lain, maka disebut child element, dan element yang membungkus child element disebut parent element.
+-   Yang dimaksud dengan '_element_' adalah konten yang dibungkus dengan tag element, seperti berikut:   
+`<p>Hello world</>`
+-   Di awali opening tag `<p>` lalu konten berupa teks(bisa juga berupa gambar,video dan audio)`Hello World` dan diakhiri closing tag `</p>`.
+-   **Menjalankan Code HTML**
+    1.   Menjalankan code dengan klik kanan file html lalu _open with_ browser.
+    ![open_with_broswer]()
+    2.   Menjalankan code dengan _copy path_.
+    ![copy_path][]
+    Lalu paste path-nya.
+    ![link_in_browser]()
+    3.   Menjalankan code di terminal dengan perintah `start index.html`.
+    ![terminal]()
+    4.   Menjalankan code dengan extension '_Code Runner_'.
+    >   Ada berbagai macam cara untuk menjalankan code dengan _Code Runner_, salah satunya klik kanan pada halaman code.
+    ![code_runner]()
+    5.  Menjalankan code dengan extension '_Live Server_'.
+    ![live_server]()
+
+-   **Tag HTML yang sering digunakan**
+    -   `<p>` merupakan paragraf.
+    -   `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>` merupakan heading.
+    -   `<input>` merupakan tag inputan.
+    -   `<button>` merupakan tombol.
+    -   `<form>` untuk formulir.
+    -   `<a>` untuk link.
+    -   `<video>` untuk video.
+    -   `<audio>` untuk audio.
+    -   `<div>` untuk section.
+    -   `<img>` untuk gambar.
+    -   `<head>` , `<header>` , `<body>` , `<footer>` , `<aside>` merupkan bagian kerangka web.
+    -   `<title>` untuk judul web.
+    -   `<link>` biasanya untuk file eksternal CSS.
+    -   `<script>` untuk menulis kode pemrograman web misalnya javascript.
+    -   `<src>` untuk sumber sebuah gambar,audio dan video.
+    -   `<ul>` , `<ol>` untuk menampilkan list.
+    -   Dan lain lain.       
+-   **Semantic HTML**
+    Semantic HTML adalah elemen yang menyatakan makna atau tujuan dari element itu sendiri, contohnya `<header>` untuk membuat kop web dan letaknya paling atas dari element semantic lainnya. Contoh penggunaan HTML sebagai berikut:
+```
+<body>
+    <header>My blog</header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <article>
+        <h1>Hello there!</h1>
+        <p>Perkenalkan nama saya Syahri</p>
+    </article>
+
+    <aside>
+        Social Media
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Youtube</a>    
+    </aside>
+
+    <footer>
+        Copyright &copy; 2022 by Syahri
+    </footer>
+    
+</body>
+``` 
+
 
 
 
