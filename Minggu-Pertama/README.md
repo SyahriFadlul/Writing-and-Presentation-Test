@@ -211,8 +211,36 @@ Ketika kita ingin membuat sebuah HTML ada beberapa alat yang harus dimiliki yait
     </html>
     ```
     -   Eksternal,yaitu menggunakan tag `<link>` dengan attribute lokasi file CSS.Contoh:     
-    `<link rel="stylesheet" href="style.css" type="text/css">`    
+    `<link rel="stylesheet" href="style.css" type="text/css">`   
+-   **Desain Web Responsif**
+    -   **Viewport** css adalah daerah yang menampilkan halaman web yang sedang kita akses.Cara menggunakannya yaitu  menambahkan attribut content pada tag meta di element head, seperti ini:    
+    ```
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+    ```        
 
+    -   Menggunakan persentase untuk nilai lebar element seperti `width:40%` dll.
+    -   Menggunakan satuan unit 'Vw' untuk besar font(1vw=1% lebar viewport)
+    -   Menggunakan **Media Query** agar ketika user resizing browser, kontenpun akan beradaptasi sesuai perintah media query-nya
+    -   Menggunakan Flexbox,dengan flexbox mengatur layout,posisi dan ukuran elemen jadi lebih mudah.
+    -   Dalam menggunakan flexbox ada 2 hal penting yang harus diketahui terlebih dahulu, ada:
+        -   Container/parent yaitu elemen yang membungkus dan mengatur tampilan dari element di dalamnya.
+        -   Items/childern yaitu elemen dalam container yang diatur tampilannya.
+    -   Contoh flexbox:
+    ```
+        .element{
+            display:flex;
+            flex-direction:row;
+            justify-content:flex-start;
+        }
+    ```
+    -   Code diatas membuat elemen menjadi flex dengan flex-direction nya row atau baris dan kontennya berada di start(kiri)
+    -   Beberapa nilai property justify-content:
+        -   flex-end, konten akan ditampilkan di akhir blok
+        -   center, konten akan ditampilkan di tengah tengah blok
+        -   space-between, tiap kontennya memiliki jarak satu sama lain
+        -   space-around, tiap konten memiliki padding horizontal yang sama
 ---
 
 ##  **Hari Ke-4 : Algoritma**    
