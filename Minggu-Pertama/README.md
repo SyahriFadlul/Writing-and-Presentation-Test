@@ -91,12 +91,14 @@ Ketika kita ingin membuat sebuah HTML ada beberapa alat yang harus dimiliki yait
 </body>
 </html>
 ```    
+
 -   Code di atas merupakan struktur HTML.
 -   HTML tersusun sebagai kesatuan dari sebuah tingkatan (family tree relationship).
 -   Saat sebuah element berada di dalam element lain, maka disebut child element, dan element yang membungkus child element disebut parent element.
 -   Yang dimaksud dengan '_element_' adalah konten yang dibungkus dengan tag element, seperti berikut:   
 `<p>Hello world</>`
 -   Di awali opening tag `<p>` lalu konten berupa teks(bisa juga berupa gambar,video dan audio)`Hello World` dan diakhiri closing tag `</p>`.
+&emsp;
 -   **Menjalankan Code HTML**
     1.   Menjalankan code dengan klik kanan file html lalu _open with_ browser.
     ![open_with_broswer](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/images/open_with_browser.png)
@@ -121,8 +123,8 @@ Ketika kita ingin membuat sebuah HTML ada beberapa alat yang harus dimiliki yait
     5.  Menjalankan code dengan extension '_Live Server_'.     
 
     ![live_server](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/images/live_server.png)    
-         
-         
+        Dengan live server semua perubahan langsung diterapkan tanpa harus refresh halaman web.    
+
 
 -   **Tag HTML yang sering digunakan**
     -   `<p>` merupakan paragraf.
@@ -171,20 +173,102 @@ Ketika kita ingin membuat sebuah HTML ada beberapa alat yang harus dimiliki yait
     </footer>
     
 </body>
-``` 
-
-
-
-
----
-
-##  **Hari Ke-3 : CSS**
-
+```     
+-   **Deploy project di Netlify**
+    1.  Daftar dengan github.
+    2.  Import project dari github.
+    3.  Pilih repository.
+    4.  Ikuti perintah selanjutnya.
+    5.  Beres
 
 ---
 
-##  **Hari Ke-4 : Algoritma**
+##  **Hari Ke-3 : CSS**    
+-   CSS atau _Cascading Style Sheets_ adalah bahasa yang digunakan untuk mengatur tampilan elemen pada bahasa markup.
+-   Struktur CSS :
+```
+.elementHTML {
+    property : value;
+}
+```
+-   Ada 3 cara untuk menggunakan CSS dalam HTML yaitu:
+    -   Inline,jadi kita menggunakan attribut untuk styling-nya.Contoh:     
+    `<p style="font-size:14px; color=red;">BEEEAANNNZZ</p>`
+    -   Internal,yaitu menggunakan tag `<style></style>` pada HTML.Contoh:    
+    ```
+    <html>
+    <head>
+        <style>
+            p{
+                color: red;
+                font-size: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Hello World</p>
+    </body>
+    </html>
+    ```
+    -   Eksternal,yaitu menggunakan tag `<link>` dengan attribute lokasi file CSS.Contoh:     
+    `<link rel="stylesheet" href="style.css" type="text/css">`    
 
+---
+
+##  **Hari Ke-4 : Algoritma**    
+
+-   Algoritma adalah langkah-langkah logis untuk menyelesaikan suatu masalah.
+-   Struktur Data adalah cara mengumpulkan dan mengatur data sedemikian rupa sehingga kita dapat melakukan operasi pada sebuah data dengan cara yang efektif.
+-   Struktur data dengan Algoritma merupakan satu kesatuan, jika salah satunya buruk maka yang yang satunya juga jadi buruk.
+-   Perbedaan algoritma dengan struktur data adalah, algoritma adalah langkah langkah untuk menyelesaikan masalah sedangkan struktur data mengatur data yang dibutuhkan dalam mengorganisir data.
+-   Contoh Algoritma sederhana menambahkan string buah ke keranjang array:
+    1. Start
+    2. Declare an array
+    3. Add index with buah
+    4. Display keranjang
+    5. Stop
+-   Contoh pseucode-nya:
+```
+    Declare:
+    Keranjang is ARRAY;
+    Description:
+    BEGIN
+    ADD "Mangga" to keranjang
+    ADD "Anggur" to keranjang
+    DISPLAY keranjang.
+    END
+```
+-   Jika bahasa pemrogramannya:
+    ```
+    let keranjang = []
+    keranjang[0] = "mangga"
+    keranjang[1] = "anggur"
+
+    console.log(keranjang)
+    ```         
+-   Contoh kasus:   
+    -   William ingin menampilkan deretan nilai dari 0 sampai N.
+    -   N adalah nilai akhir yang diinputkan.
+    -   Jika William menginput N dengan nilai 100, maka program akan menampilkan deretan nilai 1, 2, 3, 4, 5, … , 100
+-   Pseucode-nya:
+```
+    Declare:
+    INTEGER N = 100
+    Description:
+    Begin
+    FOR LET i=0 up to N ;i++; DO{
+      DISPLAY i  
+    }
+    END
+```
+-   Javascript code-nya:
+```
+    let N = 100;
+    
+    for(let i=0;i<=n;i++>){
+        console.log(i);
+    }
+```
 
 ---
 
