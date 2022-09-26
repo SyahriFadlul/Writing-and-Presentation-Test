@@ -325,7 +325,7 @@ Ketika kita ingin membuat sebuah HTML ada beberapa alat yang harus dimiliki yait
         -   `--` ,decrement ex: `let a = 1 console.log(a--)//output: 0`
     -   Assignment operator:   
 
-    !(assignment_operator){}   
+    ![assignment_operator](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Pertama/images/assignment_operator.png)  
     -   Operator perbandingan:
         -   `==` , sama dengan (cek nilai)   
         ex: 
@@ -389,7 +389,8 @@ Ketika kita ingin membuat sebuah HTML ada beberapa alat yang harus dimiliki yait
             let a = 2
             a == 2 ? console.log(true) : console.log(false) //output:true
         ```
--   **Conditional Javascript**
+-   **Conditional Javascript**   
+
     Dalam javascript ketika kita menemukan kasus dimana suatu perintah hanya akan dijalankan ketika variabel memenuhi suatu kondisi tertentu, maka kita akan menggunakan antara `if`,`if-else`,atau `switch-case` tergantung dengan kasusnya seperti apa.Contoh:
     **if-else**
     ```
@@ -413,7 +414,8 @@ Ketika kita ingin membuat sebuah HTML ada beberapa alat yang harus dimiliki yait
     }
     ```   
 
--   **Looping Javascript**
+-   **Looping Javascript**   
+
     Dalam javascript ketika kita ingin menjalankan perintah yang sama berulang-ulang, kita akan memakai `for`,`for of`,`for in`,`while`,atau `do-while` tergantung kasusnya seperti apa.Contoh:    
     **for loop**
     ```
