@@ -255,7 +255,7 @@ Ketika kita ingin membuat sebuah HTML ada beberapa alat yang harus dimiliki yait
     3. Add index with buah
     4. Display keranjang
     5. Stop
--   Contoh pseucode-nya:
+-   **Contoh pseucode-nya:**
 ```
     Declare:
     Keranjang is ARRAY;
@@ -266,7 +266,7 @@ Ketika kita ingin membuat sebuah HTML ada beberapa alat yang harus dimiliki yait
     DISPLAY keranjang.
     END
 ```
--   Jika bahasa pemrogramannya:
+-   **Jika bahasa pemrogramannya:**
     ```
     let keranjang = []
     keranjang[0] = "mangga"
@@ -274,11 +274,11 @@ Ketika kita ingin membuat sebuah HTML ada beberapa alat yang harus dimiliki yait
 
     console.log(keranjang)
     ```         
--   Contoh kasus:   
+-   **Contoh kasus:**   
     -   William ingin menampilkan deretan nilai dari 0 sampai N.
     -   N adalah nilai akhir yang diinputkan.
     -   Jika William menginput N dengan nilai 100, maka program akan menampilkan deretan nilai 1, 2, 3, 4, 5, … , 100
--   Pseucode-nya:
+-   **Pseucode-nya:**
 ```
     Declare:
     INTEGER N = 100
@@ -300,4 +300,163 @@ Ketika kita ingin membuat sebuah HTML ada beberapa alat yang harus dimiliki yait
 
 ---
 
-##  **Hari Ke-5 : Javascript Dasar**
+##  **Hari Ke-5 : Javascript Dasar**   
+-   Dengan menambahkan javascript dalam web development, user bisa berinteraksi dengan web seperti memasukan data ke web,berpindah pindah halaman dan lain lain.
+-   **Ada 2 cara menggunakan javascript dalam web development, yaitu:**
+    1.  Internal, yaitu dengan menambahkan tag `<script>` kedalam html
+    2.  Eksternal, yaitu menggunakan elemen `<script>` dalam html yang nantinya akan mengakses script.js.
+
+-   **Ada 6 tipe data pada javascript yaitu:**
+    1.  Number, yaitu angka-angka
+    2.  String, yaitu kumpulkan karakter.
+    3.  Boolean, yaitu true atau false.
+    4.  Null, yaitu variable yang nilainya kosong atau null.
+    5.  Undefined, yaitu variable yang belum dinyatakan tipe datanya.
+    6.  Object, yaitu kumpulan data dengan tipe data bisa berbeda beda, ada propertinya dan tiap properti mempunyai nilai.
+-   **Operator-operator Javascript:**
+    -   Operator aritmatika:
+        -   `+` ,penjumlahan ex: `let a = 1+1 console.log(a)//output: 2`
+        -   `-` ,pengurangan ex: `let a = 1-1 console.log(a)//output: 0`   
+        -   `*` ,perkalian ex: `let a = 1*1 console.log(a)//output: 1`
+        -   `/` ,pembagian ex: `let a = 1/1 console.log(a)//output: 1`
+        -   `**` ,eksponen ex: `let a = 1**1 console.log(a)//output: 1`
+        -   `%` ,modulus ex: `let a = 1%1 console.log(a)//output: 0`
+        -   `++` ,increment ex: `let a = 1 console.log(a++)//output: 2`
+        -   `--` ,decrement ex: `let a = 1 console.log(a--)//output: 0`
+    -   Assignment operator:   
+
+    !(assignment_operator){}   
+    -   Operator perbandingan:
+        -   `==` , sama dengan (cek nilai)   
+        ex: 
+        ```
+            let a = 2
+            if(a == 2)console.log(true);
+            else{console.log(false)} //output:true
+        ```
+        -   `===` , sama dengan (cek nilai dan tipe data)   
+        ex: 
+        ```
+            let a = 2
+            if(a === 2)console.log(true);
+            else{console.log(false)} //output:true
+        ```
+        -   `!=` ,  tidak sama dengan (cek nilai)   
+        ex: 
+        ```
+            let a = 2
+            if(a != 2)console.log(true);
+            else{console.log(false)} //output:false
+         ```
+        -   `!==` , tidak sama dengan (cek nilai dan tipe data)   
+        ex: 
+        ```
+            let a = 2
+            if(a !== 2)console.log(true);
+            else{console.log(false)} //output:false
+        ```
+        -   `>` ,   lebih dari   
+        ex: 
+        ```
+            let a = 2
+            if(a > 2)console.log(true);
+            else{console.log(false)} //output:false
+        ```
+        -   `<` ,   kurang dari   
+        ex: 
+        ```
+            let a = 2
+            if(a < 2)console.log(true);
+            else{console.log(false)} //output:false
+        ```
+        -   `>=` ,  lebih dari sama dengan   
+        ex: 
+        ```
+            let a >= 2
+            if(a >= 2)console.log(true);
+            else{console.log(false)} //output:true
+        ```
+        -   `<=` ,  kurang dari sama dengan   
+        ex: 
+        ```
+            let a = 2
+            if(a <= 2)console.log(true);
+            else{console.log(false)} //output:true
+        ```
+        -   `? :` , ternary operator   
+        ex: 
+        ```
+            let a = 2
+            a == 2 ? console.log(true) : console.log(false) //output:true
+        ```
+-   **Conditional Javascript**
+    Dalam javascript ketika kita menemukan kasus dimana suatu perintah hanya akan dijalankan ketika variabel memenuhi suatu kondisi tertentu, maka kita akan menggunakan antara `if`,`if-else`,atau `switch-case` tergantung dengan kasusnya seperti apa.Contoh:
+    **if-else**
+    ```
+    let nilai= 99;
+    if(nilai == 100){
+        console.log("Mainnya hebat")
+    }else{
+        console.log("Mainnya jelek")
+    }
+    ```
+    **switch-case**
+    ```
+    let angka = 2;
+    switch (angka){
+        case 1 :
+            console.log("Kamu bernasib sial")
+            break;
+        case 2 :
+            console.log("Kamu bernasib untung")
+            break;
+    }
+    ```   
+
+-   **Looping Javascript**
+    Dalam javascript ketika kita ingin menjalankan perintah yang sama berulang-ulang, kita akan memakai `for`,`for of`,`for in`,`while`,atau `do-while` tergantung kasusnya seperti apa.Contoh:    
+    **for loop**
+    ```
+    for(let i=1;i<=10;i++>){
+        console.log(i)
+    }
+    ```   
+    **for of loop**
+    ```
+    let keranjang =["Mangga","Apel","Jeruk","Melon","Durian"]
+    for (let x of keranjang){
+        console.log(x);
+    }
+    ```
+    **for in loop**
+    ```
+    let data = {
+        nama: "Syahri",
+        umur: 21,
+        hobi: "meloncat"
+    }
+    for (let x in data){
+        console.log(x,':',data[x])
+    }
+    ```
+    **while loop**
+    ```
+    let number = 1
+    let isFound = false;
+    while(!isFound){
+        if (number == 69){
+            isFound = true
+            console.log(number)
+        }
+        number++
+    }
+    ```
+    **do-while loop**
+    ```
+    let i = 1;
+    do{
+        i = i + 2;
+        console.log(i);        
+    }
+    while(i<=10)
+    ```
