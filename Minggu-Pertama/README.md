@@ -68,7 +68,7 @@
 
 -   **Apa Itu HTML?**
     - HTML merupakan singkatan dari _Hypertext Markup Language_.
-    - HTML bersifat statis, hanya bisa menampilkan konten saja dan tidak bisa mengelola data seperti bahasa pemrograman yang dinamis(C, C++, java, python dll).
+    - HTML bersifat statis, hanya bisa menampilkan konten saja dan tidak bisa mengelola data seperti bahasa pemrograman yang dinamis.
     - HTML dalam _web development_ adalah sebagai kerangka web.     
 
 -   **Tools pendukung HTML**     
