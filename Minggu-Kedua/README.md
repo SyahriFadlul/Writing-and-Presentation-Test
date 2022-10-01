@@ -100,7 +100,7 @@
     -   `Math.pow(x,y)`
     -   `Math.sqrt(x)`
     -   `Math.cbrt(x)`
-    -   `ath.round(x)`
+    -   `Math.round(x)`
     -   `Math.floor(x)`
     -   `Math.ceil(x)`
     -   `Math.random()`
@@ -202,7 +202,7 @@
     -   dll
 -   Cara menggunakan events:
     -   Menggunakan HTML Attribute
-    `<h1 onlick="alert('selamat datang')">click me</h1>`
+    `<button type="button" onlick="alert('selamat datang')">click me</button>`
     -   Menggunakan event property
     ```
     <html>
