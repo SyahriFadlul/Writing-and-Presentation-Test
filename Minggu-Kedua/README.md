@@ -172,8 +172,150 @@
     console.log(catImage.alt); // Output: Fish
     console.log(catImage.width); // Output: 400
     ```
+-   `element.style.property`, memberi/mengubah nilai css element HTML
+    ```
+    <!-- html -->
+    <h1 id="demo" style="color: blue;">Hello, World!</h1>
+    ```
+    ```
+    // js
+    let demo = document.getElementById("demo");
+
+    console.log(demo.style.color); // Output: blue
+
+    demo.style.color = "red";
+    demo.style.fontSize = "18px";
+
+    console.log(demo.style.color); // Output: red
+    console.log(demo.style.fontSize); // Output: 18px
+    ```    
 ---
-## **Hari ke-5: Javascript Dasar Scope dan Function** 
-    
+## **Hari ke-5: Javascript Dasar DOM Form & Events** 
+-   Events:
+    -   click
+    -   submit
+    -   focus
+    -   blur
+    -   hover
+    -   change
+    -   scroll
+    -   dll
+-   Cara menggunakan events:
+    -   Menggunakan HTML Attribute
+    `<h1 onlick="alert('selamat datang')">click me</h1>`
+    -   Menggunakan event property
+    ```
+    <html>
+    <body onclick="myFunction(event)">
+
+    <p>Click on any elements in this document to find out which element triggered the onclick event.</p>
+
+    <h1>This is a heading</h1>
+
+    <button>This is a button</button>
+
+    <p id="demo"></p>
+
+    <script>
+    function myFunction(event) { 
+    var x = event.target;
+    document.getElementById("demo").innerHTML = "Triggered by a " + x.tagName + " element";
+    }
+    </script>
+
+    </body>
+    </html>
+    ```
+    -   Menggunakan addEventListener()
+    ```
+    <html>
+    <body>
+
+    <h1>The Document Object</h1>
+    <h2>The addEventListener() Method</h2>
+
+    <p>Click anywhere in the document to display "Hello World!".</p>
+
+    <p id="demo"></p>
+
+    <script>
+    document.addEventListener("click", myFunction);
+
+    function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World";
+    }
+    </script>
+
+    </body>
+    </html>
+    ```
+-   Validasi Form:
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="login.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="sign-in">
+        <h1>Sign In</h1>
+
+        <div class="field">
+          <label for="username">username</label>
+          <input type="text" id="username" name="username" />
+        </div>
+
+        <div class="field">
+          <label for="password">password</label>
+          <input type="text" id="password" name="password" />
+        </div>
+
+        <button type="submit">login</button>
+      </form>
+    </div>
+  </body>
+</html>
+```
+
+```
+let loginForm = document.querySelector("#sign-in")
+let inputUsername = document.querySelector('#username')
+let inputPassword = document.querySelector('#password')
+
+let user = {
+  username: "syahri",
+  password: "123"
+}
+
+loginForm.addEventListener("submit", (event) => {
+  event.preventDefault()
+
+  let userLogin = {
+    username: inputUsername.value,
+    password: inputPassword.value
+  }
+
+  console.log(userLogin);
+
+  let login = userLogin.username == user.username && 
+              userLogin.password == user.password;
+
+  if (login) {
+    console.log("selamat anda berhasil login")
+  } else {
+    console.log("username dan password anda salah");
+  }
+
+  loginForm.reset()
+
+
+})
+```
 ---
 
