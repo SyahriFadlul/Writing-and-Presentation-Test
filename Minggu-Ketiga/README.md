@@ -261,7 +261,7 @@
     ``` 
     Ketika mengisi field search dan menekan tombol search maka datanya akan tersimpan di local storage.
     Cara melihatnya inspect web page>application>local storage>web page saat ini.
-    ![local_storage]()
+    ![local_storage](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Ketiga/images/local_storage.png)
     Dan juga kita bisa mengambil data pada local storage menggunakan `localStorage.getItem('key',string)`.
     Jika ingin menghapus gunakan `localStorage.removeItem('key')`dan `localStorage.clear()` untuk menghapus semua data.
     -   **Session Storage**, yaitu penyimpanan data sementara ketika pengguna membuka web page dengan ukuran penyimpanan sebesar 5MB. Data penyimpanan akan hilang ketika pengguna menghapus web atau menutup web browser, jika pengguna hanya merefresh web page maka data masih tersimpan. Dan jika pengguna membuka web page yang sama dibeberapa tab maka Session storagenya pun berbeda.Cara melihat session storage sama seperti local storage, session storage berada dibawah local storage.
