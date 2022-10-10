@@ -224,9 +224,31 @@
     proses3 selesai dijalankan
     */
 -   Callback dapat digunakan untuk mengatur order function yang harus berjalan terlebih dahulu.
--   **Asynchronous promise** mempunyai 3 pernyataan yaitu pending,fulfilled dan rejected
+-   **Asynchronous promise** mempunyai 3 pernyataan yaitu pending,fulfilled dan rejected.
+-   Pending adalah ketika promise belum ditangkap.
+-   Fulfilled adalah ketika kondisi terpenuhi dan ditangkap oleh `.then()`.
+-   Rejected adalah ketika kondisi tidak terpenuhi dan ditangkap oleh `.catch()`
+    ```
+    let nikah = new Promise((resolve, reject) => {
+        if (true) {
+            resolve("nikah terpenuhi")
+        } 
 
+        reject("gagal");
+        });        
 
+    nontonPromise
+    .then((result) => {
+        console.log(result);
+        return `${result} bareng doi`
+    })
+    .then((result) => {
+        console.log(result)
+    })
+    .catch((err) => {
+        console.log(err);
+    });
+    ```
 ---
 
 ## **Hari ke-5: JavaScript Intermediate - Web Storage**  
