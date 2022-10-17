@@ -48,12 +48,15 @@
 -   Dengan GitHub programmer dapat melakukan kolaborasi dengan programmer lainnya dengan mudah. Meskipun akan ada konflik antar kodingan, dengan git kita bisa tau bagian mana yang mengalami konflik.
 -   Git merupakan version control dan GitHub merupakan layanan hosting repository yang memungkinkan programmer berkolaborasi.
 -   Contoh berkolaborasi dalam GitHub:
-    -   Leader membuat akun organisasi
+    -   Leader membuat akun organisasi    
+
     ![git_add_org](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/git_add_org.png)
     -   Leader membuat repository dengan akun organisasi
     ![colab_newrepo](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/colab_newrepo.png)
-    -   Leader membuat branch bernama `dev`
-    ![branch_dev](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/branch_dev.png)
+    -   Leader membuat branch bernama `dev`    
+
+    ![branch_dev](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/branch_dev.png)     
+
     -   Tiap anggota melakukan clone
     ![git_clone_1](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/git_clone_1.png)
     -   Switch ke branch dev
@@ -79,8 +82,10 @@
     ![new_pull_req](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/new_pull_req.png)
     ![choose_to_pull](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/choose_to_pull.png)
     ![merge_pull_req-a](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/merge_pull_req-a.png)
-    assign ke leader
-    ![assign_toleader](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/assign_toleader.png)
+    assign ke leader     
+
+    ![assign_toleader](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/assign_toleader.png)     
+    
     ![create_pull_req](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/create_pull_req.png)
 -   Jika ada conflict maka akan seperti ini
 ![git_conflict](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/git_conflict.png)
