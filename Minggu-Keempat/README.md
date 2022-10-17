@@ -49,43 +49,43 @@
 -   Git merupakan version control dan GitHub merupakan layanan hosting repository yang memungkinkan programmer berkolaborasi.
 -   Contoh berkolaborasi dalam GitHub:
     -   Leader membuat akun organisasi
-    ![git_add_org]()
+    ![git_add_org](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/git_add_org.png)
     -   Leader membuat repository dengan akun organisasi
-    ![colab_newrepo]()
+    ![colab_newrepo](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/colab_newrepo.png)
     -   Leader membuat branch bernama `dev`
-    ![branch_dev]()
+    ![branch_dev](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/branch_dev.png)
     -   Tiap anggota melakukan clone
-    ![git_clone_1]()
+    ![git_clone_1](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/git_clone_1.png)
     -   Switch ke branch dev
-    ![switch_devv]()
+    ![switch_devv](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/switch_dev.png)
     -   Lakukan pull untuk mengupdate kode terbaru
-    ![git_pull]()
+    ![git_pull](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/git_pull.png)
     -   Tiap anggota membuat masing-masing branch(atau bisa juga membuat branch dengan nama berdasarkan fitur)
-    ![each_branch]()
+    ![each_branch](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/each_branch.png)
     -   Lalu masuk ke branch masing masing
-    ![switch_each_branch]()
-    -   Kerjakan tugas masing-masing lalu git add,commit sperti biasa     
+    ![switch_each_branch](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/switch_each_branch.png)
+    -   Kerjakan tugas masing-masing lalu git add,commit sperti biasa           
     add
-    ![git_add]()
+    ![git_add](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/git_add.png)
     commit
-    ![git_commit]()
+    ![git_commit](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/git_commit.png)
     - Git merge dev untuk menghindari conflict
-    ![merge_dev-t]()
+    ![merge_dev-t](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/merge_dev-t.png)
     -   Jika ada conflict,selesaikan
     -   Jika sudah aman push ke branch masig masing
-    ![git_push]()
+    ![git_push](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/git_push.png)
     -   Lakukan pull request merge dev
-    ![pull_req]()
-    ![new_pull_req]()
-    ![choose_to_pull]()
-    ![merge_pull_req-a]()
+    ![pull_req](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/pull_req.png)
+    ![new_pull_req](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/new_pull_req.png)
+    ![choose_to_pull](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/choose_to_pull.png)
+    ![merge_pull_req-a](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/merge_pull_req-a.png)
     assign ke leader
-    ![assign_toleader]()
-    ![create_pull_req]()
+    ![assign_toleader](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/assign_toleader.png)
+    ![create_pull_req](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/create_pull_req.png)
 -   Jika ada conflict maka akan seperti ini
-![git_conflict]()
+![git_conflict](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/git_conflict.png)
 -   Klik 'Use the command line' lalu ikuti perintahnya
-![git_resolving]()
+![git_resolving](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/git_resolving.png)
 
 
 ---
