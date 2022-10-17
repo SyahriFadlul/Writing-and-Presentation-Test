@@ -81,7 +81,8 @@
     ![pull_req](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/pull_req.png)
     ![new_pull_req](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/new_pull_req.png)
     ![choose_to_pull](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/choose_to_pull.png)
-    ![merge_pull_req-a](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/merge_pull_req-a.png)
+    ![merge_pull_req-a](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/merge_pull_req-a.png)     
+
     assign ke leader     
 
     ![assign_toleader](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/assign_toleader.png)     
@@ -99,7 +100,7 @@
 -   Responsive Web Design adalah metode designing yang bertujuan agar website dapat diakses berbagai device.
 -   Dengan Responsive Web Design tampilan web akan menyesuaikan dengan device yang user gunakan sehingga tampilan tidak terlalu besar atau terlalu kecil.
 -   Tools yang biasa digunakan adalah tools bawaan chrome yaitu  Chrome Dev tools, cara membukanya dengan menekan tombol `Ctrl`+`Shift`+`J` secara bersamaan. Tampilannya akan seperti ini:
-![chrome_dev_tools]()
+![chrome_dev_tools](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/chrome_dev_tools.png)
 -   `viewport` merupakan daerah pada layar device yang menampilkan halaman website.Cara penggunaanya adalah menambahkan tag meta pada bagian head di html.
 ```
     <head>
@@ -176,8 +177,10 @@
         </div>
     <body>
     ```
-    Output:
-    ![grid_container]()
+    Output:     
+
+    ![grid_container](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/grid_container.png)      
+
     -   Untuk menggunakan grid style kita gunakan `display:grid` atau `display:inline-grid`.
     -   `grid-template-columns: auto auto auto auto` berarti grid mempunyai 4 column yang ukurannya `auto`.
     -   Untuk membuat grid berdasarkan row gunakan `grid-template-rows`.
@@ -234,8 +237,10 @@
             <div class="grid-item12">12</div>                
         </div>
     <body>
-    ```
-    ![grid_childs]()
+    ```     
+
+    ![grid_childs](https://github.com/SyahriFadlul/Writing-and-Presentation-Test/blob/main/Minggu-Keempat/images/grid_childs.png)      
+
     -   `grid-row:1/3` berarti item akan diletakan dimulai dari row-line 1 atau row 1 sampai row-line 3 atau sebelum row 3.
     -   `grid-column:2/4` berarti item akan diletakan di column-line 2 atau column ke 2 sampai column-line ke 4 atau sebelum column ke 4.
     -   Penggunaan `grid-row-start` `grid-row-end` sama saja seperti `grid-row: start/end`, hanya saja penulisannya lebih ringkas.
